@@ -1,0 +1,660 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#designn {
+    font-family: "Roboto", sans-serif;
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design {
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    border-color: white;
+    background: rgba(145,241,245,0.2);
+    margin: 10px;
+}
+.row_main{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+}
+
+.design1 {
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.color {
+    color: black;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.title {
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    margin: 20px 80px;
+    border-radius: 20px;
+    padding: 15px 5px;
+    color: white;
+}
+
+.design1 > input {
+    border: none;
+    background-color: white;
+    outline: none;
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: tahoma;
+    font-weight: bold;
+    color: #242627;
+    margin: 10px;
+}
+
+.cal > input {
+    border: none;
+    background-color: #fff;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #242627;
+    margin: 10px;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+}
+
+.reset > button {
+    border: none;
+    background-color: #fff;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #242627;
+    margin: 10px;
+}
+
+.but > button {
+    border: none;
+    background-color: #fff;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #242627;
+    margin: 10px;
+}
+
+.reset a {
+    text-decoration: none;
+}
+
+.cen {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+}
+
+.cgpa output {
+    border: none;
+    background-color: #fff;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #242627;
+    margin: 10px;
+}
+
+.per output {
+    border: none;
+    background-color: #fff;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #242627;
+    margin: 10px;
+}
+
+#navigaton {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+@media only screen and (max-width: 950px) {
+    /* For tablets: */
+
+
+    #designn {
+    font-family: "Roboto", sans-serif;
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .design {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    border-color: white;
+    background: rgba(145,241,245,0.2);
+    margin: 10px;
+ }
+ .row_main{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+}
+
+.design1 {
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.color {
+    color: black;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.title {
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    margin: 30px 60px;
+    border-radius: 10px;
+    padding: 15px 5px;
+    color: white;
+}
+
+.design1 > input {
+    border: none;
+    background-color: white;
+    outline: none;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: tahoma;
+    font-weight: bold;
+    color: #242627;
+    margin: 10px;
+}
+
+.cal > input {
+    border: none;
+    background-color: #fff;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #242627;
+    margin: 10px;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+}
+
+.reset > button {
+    border: none;
+    background-color: #fff;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #242627;
+    margin: 10px;
+}
+
+.but > button {
+    border: none;
+    background-color: #fff;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #242627;
+    margin: 10px;
+}
+
+.reset a {
+    text-decoration: none;
+}
+
+.cen {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+.cgpa output {
+    border: none;
+    background-color: black;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    margin: 10px;
+}
+
+.per output {
+    border: none;
+    background-color: black;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    margin: 10px 10px;
+}
+
+#navigaton {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+
+   
+}
+@media only screen and (max-width: 500px)
+{
+    #designn {
+    font-family: "Roboto", sans-serif;
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .design {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    border-color: white;
+    background: rgba(145,241,245,0.2);
+    margin: 10px;
+ }
+ .row_main{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+}
+
+.design1 {
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.color {
+    color: black;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.title {
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    margin: 15px 40px;
+    border-radius: 10px;
+    padding: 15px 5px;
+    color: white;
+}
+
+.design1 > input {
+    border: none;
+    background-color: white;
+    outline: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: tahoma;
+    font-weight: bold;
+    color: #242627;
+    margin: 10px;
+}
+
+.cal > input {
+    border: none;
+    background-color: #fff;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #242627;
+    margin: 10px;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+}
+
+.reset > button {
+    border: none;
+    background-color: #fff;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #242627;
+    margin: 10px;
+}
+
+.but > button {
+    border: none;
+    background-color: #fff;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #242627;
+    margin: 10px;
+}
+
+.reset a {
+    text-decoration: none;
+}
+
+.cen {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+.cgpa output {
+    border: none;
+    background-color: wheat;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    margin: 10px;
+}
+
+.per output {
+    border: none;
+    background-color: #fff;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    margin: 10px;
+}
+
+#navigaton {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*text css*/
+#knowl {
+    padding: 5px 5px;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(37,146,215,1) 100%);
+}
+
+.info {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    background: rgba(245,245,245,0.4);
+
+    border-radius: 5px;
+}
+
+    .info a {
+        text-decoration: none;
+    }
+
+
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto+Mono:ital@1&display=swap');
+
+
+
+#knowl {
+    margin: auto;
+    padding: 5px 5px;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(37,146,215,1) 100%);
+}
+
+.info {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    background: rgba(245,245,245,0.4);
+    margin: 20px 20px;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+    .info a {
+        text-decoration: none;
+    }
+
+
+
+
+
+/* The Modal (background) */
+.popup1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .popup1-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  /* The Close Button */
+  * {
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: #af8fb9
+}
+
+#selectors {
+    background: #eeaeca;
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0, rgba(37, 146, 215, 1) 100%)
+}
+
+h2 {
+    margin: 16px
+}
+
+.container {
+    margin-top: 5px;
+    padding: 0px
+}
+
+
+
+
+
+
+
+.select-box .options-container {
+    background: rgba(255, 255, 255, 0.3);
+    color: #f5f6fa;
+    
+    border-radius: 8px;
+    overflow: hidden;
+   
+}
+
+.selected {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    color: #f5f6fa;
+    position: relative;
+    order: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.option a {
+    text-decoration: none;
+    color: white
+}
+
+.select-box .option:hover {
+    background: #414b57
+}
+
+.select-box label {
+    cursor: pointer
+}
+
+.select-box .option .radio {
+    display: none
+}
+
+@media only screen and (max-width:1080px) {
+    .blink {
+        margin-top: 1px;
+        padding: 40px
+    }
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translatey(-50%);
+    bottom: initial !important
+}
+
+.carousel-caption h5 {
+    color: blanchedalmond;
+    font-size: 44px
+}
+
+.carousel-caption h3 {
+    color: white;
+    font-size: 20px
+}
+.option button{
+    background: #2f3640;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 6px;
+    padding: 6px;
+}
+.option button:hover{
+    background: #414b57;
+    color: white;
+    border: grey;
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
