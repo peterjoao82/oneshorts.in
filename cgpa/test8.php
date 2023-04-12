@@ -1,4 +1,5 @@
 ﻿<?php include('../controls/20header.php'); ?>
+<link rel="stylesheet" href="./test.css" />
     <section id="knowl">
         <div class="info">
             <h4>VTU CGPA Calculator | Calculate VTU CGPA Online</h4>

@@ -21,12 +21,8 @@ $Desc = "VTU CGPA & SGPA Calculator may be a free on-line tool that enables VTU 
      <meta name=" robots" content=" index, follow">
 <meta name="googlebot" content="index">
 <meta name="googlebot-news" content="snippet">
-<link rel="canonical" href="https://game.oneshorts.in" />
 <link rel="canonical" href="https://oneshorts.in" />
-<link rel="canonical" href="https://color.oneshorts.in" />
-<link rel="canonical" href="https://bar.oneshorts.in/" />
-<link rel="canonical" href="https://notes.oneshorts.in/" />
-<link rel="canonical" href="https://contact.oneshorts.in/" />
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VFL0S7BE8F"></script>
 <script>
   window.dataLayer = window.dataLayer || [];

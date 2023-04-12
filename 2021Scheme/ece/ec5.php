@@ -1,23 +1,5 @@
 ﻿<?php include('../../controls/21header.php'); ?>
-<section id="designn">
-        <div class="design">
-            <div class="title">
-                <h5>Enter your subjects Marks</h5>
 
-            </div>
-            <p>
-                <center> Enter marks out of 100</center>
-            </p>
-            <div class="row_main">
-                <div class="row">
-                    <div class="design1">
-                        <label class="color">18MAT31 :</label>
-                        <input type="number" placeholder="[0 - 100]" id="ME3_1">
-                    </div>
-                    <div class="design1">
-                        <label class="color">18ME32 :</label>
-                        <input type="number" placeholder="[0 - 100]" id="ME3_2">
-                    </div><?php include('../../controls/21header.php'); ?>
 <section id="designn">
         <div class="design">
             <div class="title">
